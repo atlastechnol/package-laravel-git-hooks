@@ -1,0 +1,29 @@
+{
+  "name": "rsgabrielrm/laravel-git-hooks",
+  "description": "Laravel git hooks",
+  "keywords": ["Laravel", "Git", "Hook"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/rsgabrielrm/laravel-git-hooks",
+  "authors": [
+    {
+      "name": "Gabriel Menezes",
+      "email": "gabrielkcm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelGitHooks\\LaravelGitHooks\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelGitHooks\\LaravelGitHooks\\HookServiceProvider"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/hooks.sh"
+
+cd ..
+# Describe the action to be performed before the commit
