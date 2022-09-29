@@ -29,7 +29,7 @@ php artisan laravel-git-hooks:install
 
 ## Usage
 
-Change the pre-commit template file created in .gitHooks/ and add the action you want to take before the user successfully commits.
+Change the pre-commit template file created in `.gitHooks/` and add the action you want to take before the user successfully commits.
 
 Example if you are using docker:
 ```bash
@@ -37,7 +37,7 @@ Example if you are using docker:
 . "$(dirname "$0")/_/hooks.sh"
 
 cd ..
-containerName='service-checkout-api'
+containerName='enter-the-container-name'
 docker-compose up --detach --no-deps --no-recreate ${containerName}
 docker-compose exec -T ${containerName} php artisan test
 ```
