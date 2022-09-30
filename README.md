@@ -11,7 +11,7 @@ Add private repository in composer json file:
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:rsgabrielrm/laravel-git-hooks.git"
+      "url": "git@github.com:atlastechnol/package-laravel-git-hooks.git"
     }
   ]
 }
